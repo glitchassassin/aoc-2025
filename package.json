@@ -1,0 +1,22 @@
+{
+  "name": "aoc-2025",
+  "version": "1.0.0",
+  "description": "Advent of Code 2025 solutions",
+  "type": "module",
+  "scripts": {
+    "day1:part1": "tsx day1/part1.ts",
+    "day1:part2": "tsx day1/part2.ts"
+  },
+  "keywords": [
+    "advent-of-code",
+    "aoc-2025"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
+
