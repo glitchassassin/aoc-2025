@@ -48,3 +48,9 @@ export function readInput(filename: string) {
     
     return fs.readFileSync(path.join(callerDir, filename), 'utf8');
 }
+
+export function renderGrid(grid: (string | number)[][]) {
+    for (const row of grid) {
+        console.log(row.join(''));
+    }
+}
