@@ -4,4 +4,4 @@ dist/
 .DS_Store
 
 input.txt
-sample.txt
+sample*.txt
